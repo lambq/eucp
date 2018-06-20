@@ -1,0 +1,18 @@
+{
+    "name": "lamb/eucp",
+    "description": "eucp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "lambq",
+            "email": "415113157@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Lamb\\Eucp\\": "src/"
+        }
+    }
+}
