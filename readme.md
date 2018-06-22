@@ -10,7 +10,7 @@ composer require lambq/eucp
 > 在laravel config/app.php里面的providers添加下面的代码
 
 ```php
-Lambq\Eucp\EucpServiceProvider::class
+Lambq\Eucp\EucpProvider::class
 ```
 
 ### 发布laravel扩展包
@@ -38,4 +38,8 @@ return [
 ];
 ```
 ## 使用
-> 可调用的文件都在 Facades 文件里面
+
+```php
+$eucp = app('eucp');
+$eucp->sendTo($phone,"您的验证码是{$code}。如非本人操作，请忽略本短信");
+```
