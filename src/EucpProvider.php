@@ -1,6 +1,6 @@
 <?php
 
-namespace Lamb\Eucp;
+namespace Lambq\Eucp;
 
 use Illuminate\Support\ServiceProvider;
 

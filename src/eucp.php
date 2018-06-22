@@ -1,5 +1,5 @@
 <?php
-namespace Lamb\Eucp;
+namespace Lambq\Eucp;
 
 
 class eucp
